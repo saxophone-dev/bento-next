@@ -119,7 +119,7 @@ export const config: Config = {
       },
       {
         name: 'Tutanota',
-        icon: 'email',
+        icon: 'envelope',
         url: 'https://mail.google.com/mail/u/1',
       },
       {
