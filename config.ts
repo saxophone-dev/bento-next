@@ -11,9 +11,9 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Arki',
   openInNewTab: true,
-  title: 'Bento',
+  title: 'New tab :)',
 
   // Clock
   twelveHourFormat: false,
@@ -24,11 +24,11 @@ export const config: Config = {
     // 'google' or 'local'
     source: 'google',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'Inter',
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'everblush',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -46,12 +46,13 @@ export const config: Config = {
     'nord',
     'sakura',
     'solarized',
+    'everblush'
   ],
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
-  barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
+  searchEngine: 'ddg', // google, ddg
+  barPlaceholder: 'Search...', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
   // Greetings
@@ -70,8 +71,8 @@ export const config: Config = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '10.654810',
+  defaultLongitude: '76.475082',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
@@ -136,29 +137,29 @@ export const config: Config = {
     // You muse use the 'buttons' layout to use this group.
     [
       {
-        name: 'Music',
-        icon: 'fab-spotify',
-        url: 'https://open.spotify.com',
+        name: 'Bluesky',
+        icon: 'fab-bluesky',
+        url: 'https://bsky.app/',
       },
       {
-        name: 'twitter',
-        icon: 'fab-twitter',
-        url: 'https://twitter.com/',
+        name: 'Character.ai',
+        icon: 'far-comment-nodes',
+        url: 'https://c.ai/',
       },
       {
-        name: 'bot',
-        icon: 'fab-discord',
+        name: 'GitHub',
+        icon: 'fab-github',
         url: 'https://discord.com/app',
       },
       {
-        name: 'Amazon',
-        icon: 'fab-amazon',
-        url: 'https://amazon.com/',
+        name: 'Tutanota',
+        icon: 'far-email',
+        url: 'https://app.tuta.com/',
       },
       {
-        name: 'Hashnode',
-        icon: 'fab-hashnode',
-        url: 'https://hashnode.com/',
+        name: 'YouTube',
+        icon: 'fab-youtube',
+        url: 'https://youtube.com/',
       },
       {
         name: 'Figma',
