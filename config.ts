@@ -104,7 +104,7 @@ export const config: Config = {
     [
       {
         name: 'Bluesky',
-        icon: 'fab-bluesky',
+        icon: 'fab-twitter',
         url: 'https://bsky.app/',
       },
       {
@@ -119,7 +119,7 @@ export const config: Config = {
       },
       {
         name: 'Tutanota',
-        icon: 'mail',
+        icon: 'email',
         url: 'https://mail.google.com/mail/u/1',
       },
       {
