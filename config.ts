@@ -138,12 +138,12 @@ export const config: Config = {
     [
       {
         name: 'Bluesky',
-        icon: 'fab-bluesky',
+        icon: 'fab-twitter',
         url: 'https://bsky.app/',
       },
       {
         name: 'Character.ai',
-        icon: 'far-comment-nodes',
+        icon: 'comment',
         url: 'https://c.ai/',
       },
       {
@@ -153,8 +153,8 @@ export const config: Config = {
       },
       {
         name: 'Tutanota',
-        icon: 'far-email',
-        url: 'https://mail.google.com/mail/u/1',
+        icon: 'email',
+        url: 'https://mail.google.com/mail/u/0',
       },
       {
         name: 'YouTube',
@@ -163,7 +163,7 @@ export const config: Config = {
       },
       {
         name: 'Monkeytype',
-        icon: 'far-keyboard',
+        icon: 'keyboard',
         url: 'https://monkeytype.com/',
       },
     ],
