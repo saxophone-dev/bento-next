@@ -1,0 +1,29 @@
+:root {
+  /* Light Colors  */
+  /* Catppuccin is a dark-mode color palete. The theme is similar for both modes. */
+
+  --background: #141b1e; /* Background color */
+  --accent: #232a2d; /* Hover color */
+  --cards: #232a2d; /* Cards color */
+
+  /* Fonts Color */
+  --fg: #dadada; /* Foreground color */
+  --sfg: #b3b9b8; /* Secondary Foreground color */
+
+  /* Image background  */
+  --imgcol: linear-gradient(rgba(87, 82, 104, 0.85), rgba(87, 82, 104, 0.85)); /* Filter color */
+
+  /* Dark Colors  */
+
+  --darkbackground: #141b1e; /* Background color */
+  --darkaccent: #232a2d; /* Hover color */
+  --darkcards: #232a2d; /* Cards color */
+
+  /* Fonts Color */
+  --darkfg: #dadada; /* Foreground color */
+  --darksfg: #b3b9b8; /* Secondary Foreground color */
+
+  /* Image background  */
+  /* Image background  */
+  --darkimgcol: linear-gradient(rgba(30, 30, 46, 0.85), rgba(30, 30, 46, 0.85)); /* Filter color */
+}
