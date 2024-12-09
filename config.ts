@@ -109,7 +109,7 @@ export const config: Config = {
       },
       {
         name: 'Character.ai',
-        icon: 'far-comment-nodes',
+        icon: 'comment',
         url: 'https://c.ai/',
       },
       {
@@ -119,7 +119,7 @@ export const config: Config = {
       },
       {
         name: 'Tutanota',
-        icon: 'far-email',
+        icon: 'mail',
         url: 'https://mail.google.com/mail/u/1',
       },
       {
