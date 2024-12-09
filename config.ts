@@ -103,34 +103,34 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'Bluesky',
+        icon: 'fab-bluesky',
+        url: 'https://bsky.app/',
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        name: 'Character.ai',
+        icon: 'far-comment-nodes',
+        url: 'https://c.ai/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'GitHub',
+        icon: 'fab-github',
+        url: 'https://github.com/',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Tutanota',
+        icon: 'far-email',
+        url: 'https://mail.google.com/mail/u/1',
       },
       {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
-      },
-      {
-        name: 'Odysee',
+        name: 'YouTube',
         icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        url: 'https://youtube.com/',
+      },
+      {
+        name: 'Monkeytype',
+        icon: 'far-keyboard',
+        url: 'https://monkeytype.com/',
       },
     ],
     // Second buttons group
@@ -149,12 +149,12 @@ export const config: Config = {
       {
         name: 'GitHub',
         icon: 'fab-github',
-        url: 'https://discord.com/app',
+        url: 'https://github.com/',
       },
       {
         name: 'Tutanota',
         icon: 'far-email',
-        url: 'https://app.tuta.com/',
+        url: 'https://mail.google.com/mail/u/1',
       },
       {
         name: 'YouTube',
@@ -162,9 +162,9 @@ export const config: Config = {
         url: 'https://youtube.com/',
       },
       {
-        name: 'Figma',
-        icon: 'fab-figma',
-        url: 'https://figma.com/',
+        name: 'Monkeytype',
+        icon: 'far-keyboard',
+        url: 'https://monkeytype.com/',
       },
     ],
   ],
