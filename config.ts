@@ -132,41 +132,7 @@ export const config: Config = {
         icon: 'keyboard',
         url: 'https://monkeytype.com/',
       },
-    ],
-    // Second buttons group
-    // You muse use the 'buttons' layout to use this group.
-    [
-      {
-        name: 'Bluesky',
-        icon: 'fab-twitter',
-        url: 'https://bsky.app/',
-      },
-      {
-        name: 'Character.ai',
-        icon: 'comment',
-        url: 'https://c.ai/',
-      },
-      {
-        name: 'GitHub',
-        icon: 'fab-github',
-        url: 'https://github.com/',
-      },
-      {
-        name: 'Tutanota',
-        icon: 'email',
-        url: 'https://mail.google.com/mail/u/0',
-      },
-      {
-        name: 'YouTube',
-        icon: 'fab-youtube',
-        url: 'https://youtube.com/',
-      },
-      {
-        name: 'Monkeytype',
-        icon: 'keyboard',
-        url: 'https://monkeytype.com/',
-      },
-    ],
+    ]
   ],
 
   // Lists
